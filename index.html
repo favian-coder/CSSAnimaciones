@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prácticas CSS: Transiciones, Animaciones y Diseño Responsivo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="pagina">
+        <header class="encabezado">
+            <h1 class="texto-animado">¡Bienvenidos a la clase de CSS!</h1>
+            <p>Prácticas de transiciones, transformaciones y animaciones CSS.</p>
+        </header>
+
+        <section class="seccion practica-hover" aria-labelledby="titulo-hover">
+            <h2 id="titulo-hover">1. Práctica: transición y estado hover</h2>
+            <div class="tarjeta-hover">
+                <h3>Mecánica del cambio de estado</h3>
+                <p>Pasa el mouse sobre el cuadrado para ver el efecto.</p>
+                <div class="cuadrado" aria-label="Cuadrado animado"></div>
+            </div>
+        </section>
+
+        <section class="seccion practica-tarjeta" aria-labelledby="titulo-tarjeta">
+            <h2 id="titulo-tarjeta">2. Práctica guiada: tarjeta adaptable y animada</h2>
+            <article class="tarjeta">
+                <img
+                    class="tarjeta-imagen"
+                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYBAwQHAv/EADYQAAIBAwIEBAMHBAIDAAAAAAECAwAEEQUSBiExQRMiUWEUMnEHQlKBkaHRI7HB8GLhFRdy/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAIDBAUB/8QAIREAAgMAAQQDAQAAAAAAAAAAAAECAxEhEiIxQQQTYVH/2gAMAwEAAhEDEQA/APcaUpQClKUApSlAKUrXNMsKFmPSvG8CWn3Xy0iL8zAVGS3rt5gSFzXPNcI2ctk1TK9LwXKlvyTQljbo4rJkQdWFVwTqW256da2TXMbQFy+zb3zUF8j8JOgsIII5Vmq5p+tpGwjnkUoeQbNT8UqSrujYMParoWRn4Kp1uHk2UpSrCApSlAKUpQClKUApSlAKwTWa1XMoiiZj6V43i0JbwcN7qCK/hq3OuaeQHAdjn0qAvLwPfFyT5TnANfelXzXXxFxO/kjz0HI1zXe5tnQVPSkzsvbghzGvVRkgdqj453ExH4ulVW44qK8WNp8e4BiInLnqx6FRjoMgHJ6kcqvNvY5xnBA71XKMixOOFd1bXLfTZrUvIkQYlXLjO49cADnmpOCfTtV09buwvEeF/XmM+1c3FXDFlrFtslaSGVTlZYSNwyMHkeorn4f4T03StPeOO5uJDI24uHwAcY+Ucv2qajHP0i29/DjUvavOJpQV34Bwdo/WpnSNce0IG4FO+T/auWWxwl7ZTEPvQSxtjB6Y/wAVVrXaf6TkiQZAJOCD7VTsk9RclGSxntNheRXkPiRsD7DtXVVH+z++aYyQyE5QDrV3FdWmbnBNnLuh0TwzSlKtKxSlKAUpSgFKUoBUBxPqBhjFvEMu9T9ULji9e3ulhiwCw87/AFNZ/lSca3hf8aPVYiEmnVZhEXJaTylumc9f2rNqt1HqMekWIUeNCWLv0XaRk+/WoiOVzqjySHMcZMcQ7k5xU3qFwtjqWn3wYLuYxFunJv8AsVy4LHh05+CRh4a07Sp/jTCDdMfNI3Pcx6t9a08ZcUx6LDb2gdYpJU8Tc+cBenbmSfSpe4kku1iljGYg2cn71VH7Q9ATWYxf5CzRIF2vkqcdDyx3Naq8lLl8GWeqPBw6Bx78drkWnrCt0JGVd4iKNz74JOf2q0yzS2N+6xhjG/Udq8o4Ztp9L1SO4lIZlOU54HPuB1PpXok2totjdXVw2BHEzN1645Cp3VpNdJGqbaem241CY63HDIyhXt5VQkZwcbvz6VWHjuCFmiddoG4xsfz5GuqCK9n0zTr2Zle5Uby6tndnsR9KkbbQ5ruGHwYJWiDqpdPMAueeRnPIe1UTg3LEaIWJLSzfZtZyC2mvZBgS+UZHXHOrvWmztorS2jt4FCxoMAVvrpVQ6IKJzbZ9cuoUpSrCsUpSgFKUoBSlKAVXuKNDF/ZStAgNwTkN3/3lVhrBqE4KccZKE3B9SPEZ47mK8ggkG3DEyE9R3NdHFoSTh5wvzK6bfUEMK9O16w0+5iPxVtG8hGN3Q/rXmPFNlcfDeDGP6YkJ5dT6Vy51OuaWnThcrIbhu0u4nvrC3W3uGSW3OYnI8ue4I7g1z8ScaQW0L297azxXig5TbuRu24MO2efrXJw9ZXQOxH24OeXr2rfrlm1yHg1SLdnlFcKvnQ5z/cVNNJ8kGm1wU244Pv73UHmvXEkjuDvXpt7Y9q36zoV1HJp2nw3Ujz+Gz+FJISPbr7BqtUPxcFvHHaaxZRRoqqFmQMy49M/2rjtTbWF5LeCZtT1Sc4Ny4wsfbl2/Sr/t/h44wSxI6keS1srbT7cAmNMSMfxdSK9I4GhZdNVnQA55MOo9jVAt4Vi8QyfMw3hvUg86vfCF5GWkiD4TPLJ5HFRqffyQtXZwWylYBBGQcj2rNbzCKUpQClKUApSlAKUpQCsE4BPpWa4NXu/hbc7fmbkPavJNJaz2K14R13M9xdMojJC9faoHULaO5dkSZVP/ACFTGmlZEJ5kk9W70uY2Qbo4o2bP3hXMnsuTfB9PBTkt7nTLpCoDDdlv+VbJdVjnikhvLXJcEB19c5qfnkMzCGW2jjB+eXPQeg965JbHT55WBZdqDbHGhHI1Xn8Lt/pVbuysZsISFbngn17VFRAwXCxHGF8x5df9FWW60t5bP+oY0PzbgmcDsagJYZUlVZkVZE8pYHIZT0IPpVkZeiMkbmuhdaPFJbtlmyH9R/uBVj4Wuyix+INpHfGf1qrrYS2TmWLIjJzIpHJT2P0NWXT/AANik+R+3Oj4ZFcrD022YvCrHHMdq21FaBI72a7iGA75yala6UHsUznyWNoUpSpERSlKAUpSgFKVquJ0gjLyHkKbgPt3CKWYgADOSaqd/N8dcFo8iMd85zW7WNSF2vhW65UdSxxXJ5vAVQdinqMVg+RcpdsTbRV09zMaa7C880j4x8o71KySbkLY2r6moy3Ux3SAD5hjFbbu5MZ8il2JwAOeTVUH2lk13GZ0STCyMFB9ep/KoPULGN5GEPlCjAOfvE9a7p55UDINvj7ct7D3NQt5LI6Kluwk5BnkB5N9KrfLLFwjRevdWkkfwrNLCy7sdcH2/wB70K290owpR/w9MeuK4pVKCRPGMThidrjkfQivrTtQmaXw70JMg6nGGH0NTUSLZOfC7rdSFV024ZehxUWiRrP4ccjNjGY2+ZanZzHBarLHISuMo/7Y/euHSYoNR1jweSSE8mQeVv4q1r0Vp+y+8Phv/Hpvz7Z61JVrt4/CiVPQda2VuisWGGT16KUpUjwUpSgFKUoD4lcRoWPaq/fTfFscZ/8AnNder3DCQRK3LuMVGdjkjA6nbWP5Fm9pqph7IO+d7STepKjdhhntUhDOHjDZA9+ua59UUfDTpyYlSqnuprl0e6V4lDYDdDWJmw7ywibxHJ2k4Az1rXNqgMpVF/rDkqggkfSvi+KBgz8yOaqPWoW8tbufbNbzkL3WNTuNeRbPXFM6L+1uWhlKXGwzHDYXJ2jrURqMGoXJEVxd74yOaRgDbgVK3Qkt7U7lcMF+Xd0H1/imlpHK8bqAGBz17ehopvT3pWFO1G2k0+BXSRnj3YI58vyqQ0bzqTzCtgrn7vrVg4n0lbvTbh7cEyqm4YHXHOofQGj+HiRzgNkZPblyq+PJTLgk9YZ4eHpVJIBU49sn+a2/ZzGw1ZWnOXK/qaiuJr0+Hb23Yh1cfmCP3FTHA8gg1W23HIbyj/FW+JIr8wZ6kKzWBWa3GEUpSgFKUoBSlYNAVfWpfDvm3YGehHeuCWYvHgHAXzCu3i1PDmilA5Y/U1AQajE7PHIcEZz+lc65dzN9T7UdsTpIPhS3OSPG8/iNQjeNp16ytFt8Q+Vh0B7/AJ1KvAphXw/nMe4GuS6v1aPZeIHTAye4J7iqM9F2n0syllG7LnmzelcwvEtZfNtRc+VicEn3NcSXK2xd/EWWJiBvU9PqO1c2ouLgHnnJ5Dp+lFE9bJ2dlvo1aMlz95UYHP510WlokQAIRW/CpziuLStq24CI3McyYwD+xrpjRix2Hbu55z2rxxw93STdlihy2DtFUO6eGC/uBEAIXZSo9Mnn/mrNqS3j2/h2w3DPNs9aovE4ubGFXkB3E9ewParqXzhTYuDnvL74q+IYkqvLPvy/ip7Rbx457ZY8ZDjH61T7LdIqIOfue5q1aNby21zbzECSNJFZlI54zzxU5Pk8S7T3Zeg+lZrVbyxzRJLEwZHGVYc8ittdBHPFKUoBSlKAVis0oCA4pt/GszIp+UY5V5rqFudjOH2nn+delXfDsk0kjRandRLJ1TCso/KoefgF5gwOsy8/WBf5rLbVKT1Gmq2MVjPOG16/sfIrGQDyoep9MVMXep2OjwK+oGK/1AoCbZpAqqfQA8icnGTU/N9lUbypImtTgoQwDQgjI+hFceofZZeX2rm6n1O3ltznMMkbHGRzwc8ugqMaHvJOV69FcvOKNOurAStpHwsvjCLGFQnpnHTOM1CXF+LeZrXxTlXwrZ6g9P4r0WX7KXubgS3mvzSqH3hPh1IU46DJOBWm8+xu2u5jI+uXQPQAQpyqX0ckfuWFO0vVkifZKiZ3bSzMRzz9cVe9KkS5CYKsvseVc3/p22QbrfXLyOY/M+wcz68sYrq0f7P9c0qZtnEEdxb9klt/MPzB/moyob8EleiQuZo4/nVmVT0QdKjb23t9XtGjNr40LD7zBdw9RU3dcPaw9s6295aLOflaSMlQfXFaYuFtVttLa0tru2E+DtncMQpyfu/n0zVa+PLdJO6OYedXHD0Ngi31hLJLaFsFJQA0Z6dvcVM6ah8LAGfT1q0w8EXbKsN1qaG3y5ZIosFg3uTy9a7V4HsFxi6u+QxzZf4qx0yZH7oorml69LakfCz/ANPONjfLn3HavQtLvVv7KK4QY3DzL+EjqKr0XAenRKwF1eEsSSzOpbn74qc0TSodHsVs7d5ZI1JbdK2W51dXCUfJRZOMvBIUpSrioUpSgFKUoBSlKAUpSgFKUoBWKUoDNKUoBSlKAUpSgFKUoBSlKA//2Q=="
+                    alt="Perro"
+                >
+                <div class="tarjeta-contenido">
+                    <h3>Título de la Tarjeta</h3>
+                    <p class="descripcion">Este es el párrafo descriptivo de la tarjeta. Aquí puedes colocar todo el texto que explica o complementa el contenido visual.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
